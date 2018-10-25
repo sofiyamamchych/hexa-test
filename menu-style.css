@@ -5,67 +5,101 @@ a {
 /* header */
 
 .header {
-  background-color: #fff;
-  width: 100%;
-  z-index: 3;
+    background-color: #fff;
+    width: 100%;
+    z-index: 3;
+    margin-bottom: 24px;
 }
 
 .header ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  overflow: hidden;
-  background-color: #fff;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #fff;
 }
 
 .header li a {
-  display: block;
-  padding: 20px 20px;
-  border-right: 1px solid #f4f4f4;
-  text-decoration: none;
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "ClearSans";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.333;
+    text-align: left;
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #f4f4f4;
+    background-color: #efcfcd;
 }
 
 .header__logo {
-  display: block;
-  width: 100%;
-  padding: 10px 20px;
-  text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 14px 24px;
+    text-decoration: none;
+    margin-bottom: 16px;
 }
 
+.header__logo a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "ClearSans";
+    color: rgb(1, 1, 1);
+    font-weight: bold;
+    line-height: 0.778;
+}
 /* menu */
 
 .header .menu {
-  clear: both;
-  max-height: 0;
-  transition: max-height .2s ease-out;
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
 }
 
 /* menu icon */
 
 .header .menu-icon {
-  cursor: pointer;
-  display: inline-block;
-  float: right;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
 /*  padding: 28px 20px;*/
-  position: relative;
-  user-select: none;
+    position: relative;
+    user-select: none;
 }
 
 .header .menu-btn {
-  display: none;
+    display: none;
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 240px;
+    max-height: 240px;
 }
+
+.logo_pic{
+    margin: 0px 9px -12px 0px;
+}
+
 .menu_responsive{
     margin-top: -20px;
+    margin-right: 16px;
 }
+
+.login{
+    font-size: 15px;
+    font-family: "ClearSans";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.333;
+    border: 1px solid #707070;
+    padding: 4px 5px 6px 14px;
+    width: 60px;
+    margin-left: 24px;
+}
+
 @media (min-width: 48em) {
   .header li {
     float: left;
