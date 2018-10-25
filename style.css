@@ -14,6 +14,33 @@
     width: 100%;
 }
 
+h1{
+    font-size: 32px;
+     font-family: 'Roboto', sans-serif;
+    color: rgb(208, 202, 158);
+    font-weight: bold;
+    line-height: 1.125;
+}
+
+h3{
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(38, 36, 35);
+    line-height: 1.115;
+}
+
+.main__text__post{
+    margin: 10px;
+}
+
+.main__text__post p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(38, 36, 35);
+    line-height: 1.313;
+}
+
+
 
 @media (min-width: 1100px){
     
