@@ -2,3 +2,31 @@
     font-family: ClearSans;
     src: url(fonts/ClearSans-Regular.ttf);
 }
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 24px 0 24px;
+}
+
+.main__img img{
+    width: 100%;
+}
+
+
+@media (min-width: 1100px){
+    
+    .main{
+        flex-direction: row;
+    }
+    .main__text__postarea{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main__text{
+        width: 66%;
+    }
+
+}

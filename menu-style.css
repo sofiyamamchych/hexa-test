@@ -38,7 +38,7 @@ a {
 
 .header__logo {
     display: block;
-    width: 100%;
+    /*width: 100%;*/
     padding: 14px 24px;
     text-decoration: none;
     margin-bottom: 16px;
@@ -76,7 +76,7 @@ a {
 }
 
 .header .menu-btn:checked ~ .menu {
-    max-height: 240px;
+    max-height: 300px;
 }
 
 .logo_pic{
@@ -99,6 +99,9 @@ a {
     width: 60px;
     margin-left: 24px;
 }
+.login__lock{
+    margin: 0 6px 0 0;
+}
 
 .header a{
     text-decoration: none;
@@ -112,6 +115,10 @@ a {
     font-weight: bold;
     line-height: 1.25;
     padding: 4px 24px 6px 24px;
+}
+
+.arrow-down{
+    display: none;    
 }
 
 @media (min-width: 1100px) {
@@ -153,7 +160,12 @@ a {
     }
     .header{
         display: flex;
-        
+        justify-content: space-between;
     }
+    .arrow-down{
+        display: inline-block; 
+        margin-left: 4px;   
+    }
+
 
 }
