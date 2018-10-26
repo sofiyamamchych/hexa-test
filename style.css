@@ -7,6 +7,12 @@ body{
     src: url(fonts/ClearSans-Regular.ttf);
 }
 
+
+@keyframes lineslide {
+    from {width: 1px;}
+    to {width: 100%;}
+}
+
 .main{
     display: flex;
     flex-direction: column;
@@ -55,7 +61,8 @@ h1:hover, h3:hover{
     height: 1px;
     background-color: #cbcbc3;
     width: 100%;
-    opacity: 0.5;    
+    opacity: 0.5; 
+    animation: lineslide 4s;   
 }
 .mobline1{
     top: 28px;
@@ -98,6 +105,7 @@ h1:hover, h3:hover{
     .mobline{
         display: none;
     }
+
     .line{
         position: relative;
         top: 115px;
@@ -105,6 +113,7 @@ h1:hover, h3:hover{
         background-color: #cbcbc3;
         width: 100%;
         opacity: 0.5;
+        animation: lineslide 4s;
     }
 
     .line2{
