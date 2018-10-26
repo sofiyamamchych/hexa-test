@@ -194,4 +194,5 @@ a {
 @media (min-width: 1960px) {
     .header, .main{
         margin: 0 10% 0 10%;
+    }
 }
