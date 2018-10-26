@@ -84,7 +84,9 @@ h1:hover, h3:hover{
     
     h3{
         width: 60%;
+        height: 96px;
     }
+    
     .main{
         flex-direction: row;
         margin: 0 24px 0 24px;
