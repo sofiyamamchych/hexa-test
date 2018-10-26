@@ -39,7 +39,7 @@ a {
 .header__logo {
     display: block;
     /*width: 100%;*/
-    padding: 14px 0px;
+    padding: 17px 0px;
     text-decoration: none;
     margin-bottom: 16px;
 }
@@ -69,6 +69,7 @@ a {
 /*  padding: 28px 20px;*/
     position: relative;
     user-select: none;
+    margin-bottom: 14px;
 }
 
 .header .menu-btn {
@@ -84,7 +85,7 @@ a {
 }
 
 .menu_responsive{
-    margin-top: -20px;
+    margin-top: -26px;
     margin-right: 16px;
 }
 
@@ -126,7 +127,7 @@ a {
         float: left;
     }
     .header li a {
-        padding: 0 0 20px 0;
+        padding: 5px 0 20px 0;
         margin-right: 30px;
     }
     .header .menu {
